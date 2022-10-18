@@ -1,0 +1,7 @@
+- id: credo-check
+  name: Credo static checker
+  description: Credo is a static code analysis tool for the Elixir language with a focus on teaching and code consistency.
+  always_run: true
+  fail_fast: true
+  language: script
+  entry: ./credo.sh
